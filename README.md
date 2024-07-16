@@ -1,16 +1,24 @@
-# tictactoe
+# Flutter Tic Tac Toe Game
 
-A new Flutter project.
+A modern, feature-rich implementation of the classic Tic Tac Toe game built with Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Sleek, responsive UI that adapts to different screen sizes
+- Player selection screen to choose who goes first (X or O)
+- 5-second turn timer to keep the game fast-paced
+- Animated tile placement for enhanced user experience
+- Win detection with score tracking
+- Game over screen with winner announcement and restart option
+- Draw detection when no moves are left
 
-A few resources to get you started if this is your first Flutter project:
+## Technical Highlights
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Built with Flutter for cross-platform compatibility
+- Utilizes StatefulWidget for dynamic game state management
+- Implements custom animations using AnimationController
+- Uses Timer for turn-based gameplay
+- Employs GridView for an efficient and responsive game board
+- Leverages Flutter's theming for consistent styling
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Tic Tac Toe game combines classic gameplay with modern mobile app features, providing an engaging experience for players of all ages. It serves as an excellent example of Flutter's capabilities in creating interactive, visually appealing mobile applications.
